@@ -1,0 +1,48 @@
+h4 {
+  text-decoration: line-through;
+}
+
+p {
+  color: #6a6c6d;
+}
+
+.head {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  background-color: #0c0c0f;
+}
+
+.btn-primary {
+  background-color: #3f8cff;
+}
+
+.btn-secondary {
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+
+body {
+  background-color: #141419;
+  color: white;
+}
+
+.fa-check-circle {
+  color: #283954;
+}
+
+.main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.basic {
+  background-color: #222429;
+}
+
+.pro {
+  background-color: #222429;
+}
+
+/*# sourceMappingURL=style.css.map */
