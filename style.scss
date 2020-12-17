@@ -1,5 +1,6 @@
 $background: #141419;
 $div: #222429;
+$small: #7d7f80;
 
 
 
@@ -11,9 +12,24 @@ h2 {
 }
 h4 {
     text-decoration: line-through;
+    color: $small;
 }
 p {
-    color: #6a6c6d;
+    color: $small;
+    font-size: small;
+}
+a:link {
+    text-decoration: none;
+    border-bottom: 1px dashed;
+}
+a:hover {
+    color: $small;
+}
+a:active {
+    color: $small;
+}
+a:visited {
+    color: $small;
 }
 
 body {
@@ -24,18 +40,27 @@ body {
 .head {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
+    width: 40%;
+    border-radius: 10px;
     margin-top: 3em;
     margin-bottom: 3em;
     margin-left: 2em;
     margin-right: 2em;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black
 }
 
 .btn-primary{
     background-color: #3f8cff;
+    width: 100%;
 }
 
 .btn-secondary{
+    background-color: black;
+    border: none;
     padding-top: 1px;
     padding-bottom: 1px;
     padding-right: 1em;
@@ -43,6 +68,7 @@ body {
     margin-left: 1em;
     margin-right: 1em;
 }
+
 
 .fa-check-circle {
     color: #283954;
@@ -52,37 +78,50 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .basic {
     background-color: $div;
-    border-color: #3f8cff;
-    border-style: solid;
-    border-width: 2px;
     width: 25%;
     margin-right: 10px;
     padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
 }
 
 .pro {
     background-color: $div;
-    border-color: #3f8cff;
-    border-style: solid;
-    border-width: 2px;
     width: 25%;
     margin-left: 10px;
     padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 10px;
 }
 
 .price {
-    text-align: center;;
+    text-align: center;
+
 }
 
 .feature {
-
+    margin-top: 2em;
 }
 
-.buttonChoose {
+.buttonChoose1 {
     text-align: center;
+    padding-top: 8em;
+    margin-bottom: 10px;
+
+}
+.buttonChoose2 {
+    text-align: center;
+    padding-top: 1.5em;
+    margin-bottom: 10px;
+
 }
 

@@ -1,9 +1,28 @@
 h4 {
   text-decoration: line-through;
+  color: #7d7f80;
 }
 
 p {
-  color: #6a6c6d;
+  color: #7d7f80;
+  font-size: small;
+}
+
+a:link {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+}
+
+a:hover {
+  color: #7d7f80;
+}
+
+a:active {
+  color: #7d7f80;
+}
+
+a:visited {
+  color: #7d7f80;
 }
 
 body {
@@ -14,18 +33,27 @@ body {
 .head {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
+  width: 40%;
+  border-radius: 10px;
   margin-top: 3em;
   margin-bottom: 3em;
   margin-left: 2em;
   margin-right: 2em;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
 }
 
 .btn-primary {
   background-color: #3f8cff;
+  width: 100%;
 }
 
 .btn-secondary {
+  background-color: black;
+  border: none;
   padding-top: 1px;
   padding-bottom: 1px;
   padding-right: 1em;
@@ -42,34 +70,49 @@ body {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .basic {
   background-color: #222429;
-  border-color: #3f8cff;
-  border-style: solid;
-  border-width: 2px;
   width: 25%;
   margin-right: 10px;
   padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
 }
 
 .pro {
   background-color: #222429;
-  border-color: #3f8cff;
-  border-style: solid;
-  border-width: 2px;
   width: 25%;
   margin-left: 10px;
   padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 10px;
 }
 
 .price {
   text-align: center;
 }
 
-.buttonChoose {
+.feature {
+  margin-top: 2em;
+}
+
+.buttonChoose1 {
   text-align: center;
+  padding-top: 8em;
+  margin-bottom: 10px;
+}
+
+.buttonChoose2 {
+  text-align: center;
+  padding-top: 1.5em;
+  margin-bottom: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
